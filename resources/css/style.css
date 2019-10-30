@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'Armata';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Armata Regular'), local('Armata-Regular'), url(https://fonts.gstatic.com/s/armata/v11/gokvH63_HV5jQ-ENkzR2YWivmA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/* Univeral Styles */
+
+body {
+    margin: 0;
+}
+
+/* Color Classes */
+
+.purple {
+    color: hsl(257, 92%, 74%);
+}
+
+.pink {
+    color: hsl(331, 92%, 74%);
+}
+
+.blue {
+    color: hsl(212, 92%, 74%);
+}
+
+.orange {
+    color: hsl(18, 92%, 74%);
+}
+
+.backpurple {
+    background-color: hsl(257, 92%, 74%);
+    border: 1px solid hsl(257, 92%, 74%);
+    color: #fff;
+}
+
+.backpink {
+    background-color: hsl(331, 92%, 74%);
+    border: 1px solid hsl(331, 92%, 74%);
+    color: #fff;
+}
+
+.backblue {
+    background-color: hsl(212, 92%, 74%);
+    border: 1px solid hsl(212, 92%, 74%);
+    color: #fff;
+}
+
+.backorange {
+    background-color: hsl(18, 92%, 74%);
+    border: 1px solid hsl(18, 92%, 74%);
+    color: #fff;
+}
+
+.backwhite {
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: hsl(331, 92%, 74%);
+}
+
+/* Text Classes */
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+/* Nav Styles */
+
+.navbar {
+    font-family: monospace;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    border: 1px solid #fff;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    height: 55px;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.navbar hr {
+    width: 100%;
+}
+
+.title {
+    padding: 20px;
+    font-size: 20px;
+    transition: all 400ms ease;
+}
+
+.navlink {
+    font-size: 16px;
+    transition: font-size 200ms linear;
+}
+
+.navlink:hover {
+    font-size: 18px;
+}
+
+.title:hover {
+    color: hsl(212, 92%, 74%);
+    font-size: 22px;
+}
+
+/* Jumbotron Styles */
+
+.jumbotron {
+    width: 100%;
+    min-height: 600px;
+    margin: 0;
+    padding-top: 52px;
+}
+
+.container {
+    margin: 100px;
+    margin-top: 150px;
+    font-family: 'Armata', sans-serif;
+}
+
+.container h2 {
+    font-size: 50px;
+}
+
+.container p {
+    max-width: 600px;
+    line-height: 2;
+}
+
+/* About Styles */
+
+.about {
+    font-family: 'Armata', sans-serif;
+    min-height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutcon {
+    width: 70%;
+    margin: 50px;
+}
+
+.aboutcon p {
+    line-height: 1.8;
+}
+
+/* Skills Styles */
+
+.skill {
+    width: 100%;
+    min-height: 150px;
+    font-family: 'Armata', sans-serif;
+}
+
+.skillcon {
+    margin: 50px 100px;
+}
+
+.skillcon p {
+    line-height: 1.8;
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+.skillcon a {
+    text-decoration: none;
+}
